@@ -37,8 +37,8 @@ public class Demo1 {
         driver.findElement(By.xpath("//input[@name='pma_username']")).sendKeys("admin");
         driver.findElement(By.xpath("//input[@name='pma_password']")).sendKeys("admin123");
         driver.findElement(By.xpath("//input[@id='input_go']")).click();
-        driver.switchTo().window(orginalhandle);
         
+
 
     }
 }
